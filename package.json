@@ -1,7 +1,7 @@
 {
   "name": "react-proyecto-guiado",
   "version": "0.1.0",
-  "homepage": "http://cynthia1171.github.io/React-proyecto-guiado",
+  "homepage": "http://cynthia1171.github.io/react-proyecto-guiado",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
