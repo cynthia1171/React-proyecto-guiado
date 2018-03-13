@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "material-ui": "^0.20.0",
     "moment": "^2.21.0",
     "prop-types": "^15.6.1",
@@ -12,12 +13,15 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.1",
     "react-weathericons": "^1.0.4",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "homepage": "https://github.com/cynthia1171/React-proyecto-guiado.git"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run builder",
+    "deploy": "gh-pages -d build"
   }
 }
