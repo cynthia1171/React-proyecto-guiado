@@ -1,6 +1,7 @@
 {
-  "name": "proyecto-guiado",
+  "name": "React-proyecto-guiado",
   "version": "0.1.0",
+  "homepage": "https://cynthia.github.io/React-proyecto-guiado",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
@@ -13,8 +14,7 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.1",
     "react-weathericons": "^1.0.4",
-    "redux": "^3.7.2",
-    "homepage": "https://github.com/cynthia1171/React-proyecto-guiado.git"
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
